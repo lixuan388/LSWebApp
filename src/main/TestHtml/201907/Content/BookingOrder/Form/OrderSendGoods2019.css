@@ -1,0 +1,84 @@
+
+.address.layui-form-item {
+    /*! border: 1px solid #D2D2D2; */
+  /*! border-radius: 0 0 2px 2px; */
+  margin-top: -1px;
+}
+
+.address>.layui-input-block{
+  margin-left: 0px;
+}
+.address>.layui-input-block>.layui-inline{
+  margin: 0px;
+}
+ .width33{
+  width: calc(100% / 3);
+}
+
+ .width50{
+  width: calc(100% / 2);
+}
+
+ .width100{
+  width: calc(100% / 1);
+}
+
+.address>.layui-input-block>.layui-inline{
+  float: left;
+}
+
+
+.layui-textarea {
+  resize: none;
+}
+
+#ExpressCode,.BillImage,.ExpressCodeLabel {
+    display: none;
+}
+
+.doing #ExpressCode {
+    display: inline-block;
+    width: 200px;
+}
+
+.doing .BillImage,.doing .ExpressCodeLabel {
+    display: inherit;
+}
+
+.doing .mark,.posting .mark {
+    width: calc(100% - 40px);
+    position: absolute;
+    height: 100%;
+    z-index: 1000;
+    /*background-color: #e6e6e6;*/
+    /*opacity: 0.5;*/
+    display: inherit;
+}
+
+ .mark {
+    display: none;
+}
+
+.doing  .CreateExpress {
+    display: none;
+}
+
+
+.weui-mask, .weui-mask_transparent {
+    position: absolute;
+}
+
+.weui-toast {
+    position: absolute;
+    top: calc(50% - 3.8em);
+    left: calc(50% - 3.8em);
+    margin-left: 0;
+    margin-top: 0;
+}
+
+
+
+.doing .weui-toast {
+    display: none;
+}
+

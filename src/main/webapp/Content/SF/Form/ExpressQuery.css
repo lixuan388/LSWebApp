@@ -1,0 +1,35 @@
+.layui-form-item {
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.Query .To .layui-form-label{
+    width: 1em;
+}
+
+.Query .To .layui-input-block {
+    margin-left: calc(1em + 20px);
+}
+
+.DateSelect{
+    width:100px;
+}
+
+.Query .layui-form-label{
+    width: 70px;
+    padding: 4px 4px;
+}
+
+.Query .layui-input-block {
+    margin-left: 78px;
+}
+
+.layui-table-view .layui-table[lay-size="sm"] .layui-table-cell {
+    height: inherit;
+    line-height: inherit;
+}
+
+table.layui-table tr.无效 td {
+    color: #737373;
+    background-color: #acacac;
+}

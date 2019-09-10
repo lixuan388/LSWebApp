@@ -1,0 +1,197 @@
+
+.address.layui-form-item {
+    /*! border: 1px solid #D2D2D2; */
+  /*! border-radius: 0 0 2px 2px; */
+  margin-top: -1px;
+}
+
+.address>.layui-input-block{
+  margin-left: 0px;
+}
+.address>.layui-input-block>.layui-inline{
+  margin: 0px;
+}
+ .width33{
+  width: calc(100% / 3);
+}
+
+ .width50{
+  width: calc(100% / 2);
+}
+
+ .width100{
+  width: calc(100% / 1);
+}
+
+.address>.layui-input-block>.layui-inline{
+  float: left;
+}
+
+
+.layui-textarea {
+  resize: none;
+}
+/*
+#ExpressCode,.BillImage,.ExpressCodeLabel {
+    display: none;
+}
+*/
+.doing #ExpressCode {
+    display: inline-block;
+    width: 200px;
+}
+
+.doing .BillImage,.doing .ExpressCodeLabel {
+    display: inherit;
+}
+
+.doing .mark,.posting .mark {
+    width: calc(100% - 40px);
+    position: absolute;
+    height: 100%;
+    z-index: 1000;
+    /*background-color: #e6e6e6;*/
+    /*opacity: 0.5;*/
+    display: inherit;
+}
+
+ .mark {
+    display: none;
+}
+
+.doing  .CreateExpress {
+    display: none;
+}
+
+.OrderDetilTitleMailCheckBox{
+  background-color: #1E9FFF;  
+}
+.OrderDetilTitle{
+  padding: 0 5px;
+}
+
+.OrderDetilTitleSelect{
+  border: 2px solid #F00;
+}
+
+.ExpressOPButton{
+  display: inline-block;
+width: calc(50% - 10px);
+}
+/*
+.weui-mask, .weui-mask_transparent {
+    position: absolute;
+}
+
+.weui-toast {
+    position: absolute;
+    top: calc(50% - 3.8em);
+    left: calc(50% - 3.8em);
+    margin-left: 0;
+    margin-top: 0;
+}
+
+
+
+.doing .weui-toast {
+    display: none;
+}
+*/
+
+.layui-form-item {
+    margin-bottom: 0;
+}
+.layui-form-pane .layui-form-radio, .layui-form-pane .layui-form-switch {
+    margin-top: 0;
+}
+.layui-card {
+    margin: 2px;
+    padding: 2px;
+}
+.layui-btn-primary {
+    line-height: 26px;
+}
+
+
+
+.layui-form-item .layui-input-inline {
+    width: calc(100% - 87px);
+    margin-right: 0;
+}
+.layui-form-pane .layui-input-block {
+
+    margin-left:88px;
+    left: -1px;
+
+}
+.layui-form-item .layui-form-label,.layui-form-pane .layui-form-label {
+    width: 88px;
+}
+
+.OrderDetilListTabHearForm.layui-form-item .layui-inline  {
+    width: calc(33% - 1px);
+}
+.OrderDetilListTabHearForm.layui-form-item .layui-inline {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.layui-tab-content{
+background-color: #f9f9f9;
+}
+.layui-tab-card > .layui-tab-title .layui-this {
+
+    background-color: #f9f9f9;
+
+}
+
+.layui-form-pane .layui-form-radio, .layui-form-pane .layui-form-switch {
+
+    margin-left: 0;
+
+}
+.layui-card-body {
+
+    padding: 2px 2px;
+
+}
+
+.layui-btn[disabled=disabled]
+{
+    border: 1px solid #e6e6e6;
+    background-color: #FBFBFB;
+    color: #C9C9C9;
+    cursor: not-allowed;
+    opacity: 1;
+}
+
+
+.layui-table-view .layui-table[lay-size="sm"] .layui-table-cell {
+  height: inherit;
+  line-height: inherit;
+}
+
+.layui-table-cell, .layui-table-tool-panel li {
+  white-space: inherit;
+}
+
+.layui-form-radio {
+    padding-right: 0;
+}
+
+.layui-colla-title {
+    height: 35px;
+    line-height: 35px;
+}
+
+.layui-table[lay-size="sm"] td, .layui-table[lay-size="sm"] th {
+    padding: 2px 5px;
+}
+
+.layui-card-header {
+    height: 25px;
+    line-height: 23px;
+}
+
+
+

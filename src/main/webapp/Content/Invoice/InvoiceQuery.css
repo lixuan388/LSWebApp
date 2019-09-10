@@ -1,0 +1,42 @@
+.layui-form-item {
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.Query .To .layui-form-label{
+    width: 1em;
+}
+
+.Query .To .layui-input-block {
+    margin-left: calc(1em + 20px);
+}
+
+.DateSelect{
+    width:100px;
+}
+
+.Query .layui-form-label{
+    width: 70px;
+    padding: 4px 4px;
+}
+
+.Query .layui-input-block {
+    margin-left: 78px;
+}
+
+.layui-table-view .layui-table[lay-size="sm"] .layui-table-cell {
+    height: inherit;
+    line-height: inherit;
+}
+
+
+.layui-form-checkbox[lay-skin="primary"] {
+    padding-left: 18px;
+}
+.InvoiceInfo
+{
+  text-align: justify;
+  text-align-last: justify;
+  width: 4em;
+  display: inline-block;
+}

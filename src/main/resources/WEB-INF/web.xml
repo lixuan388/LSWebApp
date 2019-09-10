@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>Web Application</display-name>
+  <listener>
+    <listener-class>com.ecity.java.web.ls.task.ServerStartInitializedTask</listener-class>
+  </listener>
+  <filter>
+    <filter-name>login</filter-name>
+    <filter-class>com.ecity.java.web.ls.Filter.LoginFilter</filter-class>
+  </filter>
+  <filter>
+    <filter-name>WeiXin</filter-name>
+    <filter-class>com.ecity.java.web.ls.Filter.WeiXinFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>login</filter-name>
+    <url-pattern>/Content/*</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>WeiXin</filter-name>
+    <url-pattern>/WeiXin/*</url-pattern>
+  </filter-mapping>
+  <welcome-file-list>
+    <welcome-file>/Login/login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

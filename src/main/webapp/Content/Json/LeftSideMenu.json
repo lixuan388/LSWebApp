@@ -1,0 +1,70 @@
+{
+	"code": 0
+	,"msg": "",
+	"data":[
+		{
+			"text": "电商操作",
+			"href": "#",
+			"id": "2",
+			"icon":"layui-icon-app",
+			"nodes": [
+				{
+					"text": "订单查询",
+					"href": "/Content/BookingOrder/Form/BookingOrderQuery.jsp?",
+					"id": "21"
+				},
+				{
+					"text": "飞猪订单查询",
+					"href": "/Content/TaoBao/Form/alitripTravelTradesSearch2.jsp?",
+					"id": "22"
+				}
+			]
+		},
+		{
+			"text": "基础信息",
+			"href": "#",
+			"id": "3",
+			"icon":"layui-icon-set",
+			"nodes": [
+				{
+					"text": "供应商",
+					"href": "/Content/Base/Form/SupplierInfo.jsp?",
+					"id": "31"
+				},
+				{
+					"text": "短信模板",
+					"href": "/Content/System/MessageTemplate.jsp?",
+					"id": "32"
+				},
+				{
+					"text": "顺风参数配置",
+					"href": "/Content/SF/SFConfig.jsp?",
+					"id": "33"
+				}
+			]
+		},
+		{
+			"text": "产品管理",
+			"href": "#",
+			"id": "1",
+			"icon":"layui-icon-component",
+			"nodes": [
+				{
+					"text": "产品类型",
+					"href": "/Content/Product/Form/ProductType.jsp?",
+					"id": "11"
+				},
+				{
+					"text": "产品资料",
+					"href": "/Content/Product/Form/ProductInfo.jsp?",
+					"id": "12"
+				},
+				{
+					"text": "产品上线",
+					"href": "/Content/Product/Form/ProductPackage.jsp?",
+					"id": "13"
+				}
+			]
+		}
+	]
+}

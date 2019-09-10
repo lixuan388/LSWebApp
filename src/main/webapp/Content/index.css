@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+
+
+.tab-pane{ 
+    /*background-color: #e0e0e0;*/
+    height:calc(100% - 42px);
+    padding: 5px;
+	background-color: #fff;
+}
+
+
